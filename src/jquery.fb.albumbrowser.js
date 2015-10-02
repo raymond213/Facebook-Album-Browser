@@ -1,4 +1,4 @@
-﻿/*
+/*
  * jQuery Plugin: jQuery Facebook Album Browser
  * https://github.com/dejanstojanovic/Facebook-Album-Browser
  * Version 1.9.8
@@ -33,7 +33,7 @@
             likeButton: true,
             shareButton: true,
             addThis: null,
-            pluginImagesPath: "src/",
+            pluginImagesPath: "https://github.com/raymond213/Facebook-Album-Browser/blob/master/src/",
             albumsPageSize: 0,
             albumsMoreButtonText: "more albums...",
             photosPageSize: 0,
@@ -197,10 +197,11 @@
                                         $(selector).append($("<div>", { class: "fb-album-preview" }));
                                         $(selector).find("div.fb-albums-more").hide();
                                         var previewContainer = selector.find(".fb-album-preview");
-                                        previewContainer.append($("<div>", {
+                                        previewContainer.append($("<img>", {
                                             alt: "",
                                             height: 32,
                                             width: 32,
+                                            src: settings.pluginImagesPath + "back.png",
                                             class: "fb-albums-list"
                                         }));
 
