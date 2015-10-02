@@ -201,7 +201,7 @@
                                             alt: "",
                                             height: 32,
                                             width: 32,
-                                            src: settings.pluginImagesPath + "back.png",
+                                            src: "src/back.png",
                                             class: "fb-albums-list"
                                         }));
 
