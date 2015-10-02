@@ -33,7 +33,7 @@
             likeButton: true,
             shareButton: true,
             addThis: null,
-            pluginImagesPath: "https://github.com/raymond213/Facebook-Album-Browser/blob/master/src/",
+            pluginImagesPath: src/,
             albumsPageSize: 0,
             albumsMoreButtonText: "more albums...",
             photosPageSize: 0,
