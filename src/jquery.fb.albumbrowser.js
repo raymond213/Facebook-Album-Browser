@@ -197,7 +197,7 @@
                                         $(selector).append($("<div>", { class: "fb-album-preview" }));
                                         $(selector).find("div.fb-albums-more").hide();
                                         var previewContainer = selector.find(".fb-album-preview");
-                                        previewContainer.append($("<img>", {
+                                        previewContainer.append($("<div>", {
                                             alt: "",
                                             height: 32,
                                             width: 32,
