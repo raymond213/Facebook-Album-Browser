@@ -201,7 +201,7 @@
                                             alt: "",
                                             height: 32,
                                             width: 32,
-                                            src: pluginImagesPath + "back.png",
+                                            src: settings.pluginImagesPath + "back.png",
                                             class: "fb-albums-list"
                                         }));
 
@@ -607,8 +607,8 @@
                     if (settings.showImageText || settings.likeButton || settings.shareButton) {
                         lightboxContent.append($("<div>", { class: "fb-preview-text" }));
                     }
-                    overlay.append($("<img>", { class: "fb-preview-img-prev", src: pluginImagesPath + "prev-icon.png" }));
-                    overlay.append($("<img>", { class: "fb-preview-img-next", src: pluginImagesPath + "next-icon.png" }));
+                    overlay.append($("<img>", { class: "fb-preview-img-prev", src: settings.pluginImagesPath + "prev-icon.png" }));
+                    overlay.append($("<img>", { class: "fb-preview-img-next", src: settings.pluginImagesPath + "next-icon.png" }));
 
                     $("body").append(overlay);
                     overlay = $(".fb-preview-overlay");
