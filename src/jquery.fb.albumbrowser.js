@@ -201,7 +201,6 @@
                                             alt: "",
                                             height: 32,
                                             width: 32,
-                                            src: "src/back.png",
                                             class: "fb-albums-list"
                                         }));
 
